@@ -2,7 +2,13 @@ Vue.component('message', {
     template: `
     
         <div class="message">
-            <h1>Hello World</h1>
+            <div class="title">
+                <h3>Title</h3>
+                <button class="close">X</button>
+            </div>
+            <div class="body">
+                <p>Body</p>
+            </div>
         </div>
     
     `
