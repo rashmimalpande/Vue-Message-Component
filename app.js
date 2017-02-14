@@ -1,13 +1,15 @@
 Vue.component('message', {
+    props: ['title', 'body'],
+
     template: `
     
         <div class="message">
             <div class="title">
-                <h3>Title</h3>
+                <h3>{{title}}</h3>
                 <button class="close">X</button>
             </div>
             <div class="body">
-                <p>Body</p>
+                <p>{{body}}</p>
             </div>
         </div>
     
